@@ -1,0 +1,29 @@
+extends sidebar 
+
+block content-head 
+    link(rel="stylesheet", href="/assets/CSS/artist.css")
+    title User Profile
+block content-body 
+    .main-content
+        div#artist_banner
+            img(src="/assets/images/genrePoster.jpg", alt="", title="music")
+        .profile-main-content 
+            h1 My Profile
+        
+        .profile_flex
+            .profile-info
+                .profile-info-content 
+                    h2 Personal Info
+                    p Name: #{user.username}
+                button.edit-btn(onclick="openOverlay('personalInfoOverlay')") 
+                    i.fa.fa-edit 
+            .contact-info 
+                .contact-info-content
+                    h2 Contact Info
+                    p Email: #{user.email}
+                button.edit-btn(onclick="openOverlay('contactInfoOverlay')") 
+                    i.fa.fa-edit 
+        
+        //- Delete Profile Button
+        button.delete-btn(onclick=`deleteProfile("${user._id}")`) Delete Profile
+    include footer 

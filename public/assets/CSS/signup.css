@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#signupmain
+{
+  display: flex;
+  height: 100vh;
+}
+#phone_image
+{
+  display: none;
+}
+#one_cont {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF0FA;
+}
+#two_cont img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+#two_cont {
+    width: 65%;
+    height: 100vh;
+}
+.form-container {
+    padding: 2rem;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #C3CFF0;
+    box-shadow: 10px 10px 20px #babecc,
+                -10px -10px 20px #ffffff;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-shadow: 0px 0px 10px #5cfaff,
+                0px 0px 20px #5cfaff;
+    color: white;
+    letter-spacing: 2px;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    outline-color: #00ccff;
+    border: 1px solid #00ccff;
+    border-radius: 4px;
+  }
+input:hover
+{
+    box-shadow: 0 0 10px aqua;
+    border: 0;
+}
+  button {
+    /* width: 100%; */
+    font-size: 1rem;
+    background-color: #282c34;
+    color: #61dafb;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5% 40%;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    box-shadow: 0 0 10px #282c34;
+  }
+  
+  .success-message {
+    text-align: center;
+    color: green;
+    margin-top: 1rem;
+    display: none;
+  }
+@media screen and (min-width:375px) and (max-width:767px)
+{
+  body
+  {
+    background-image: url("https://i.pinimg.com/originals/ea/47/bb/ea47bbfc663d46f5cfc6d0b3d29b5db9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  #two_cont img,#nav_heading,#two_cont
+  {
+    display: none;
+  }
+  #one_cont
+  {
+    width: 100%;
+    background: none;
+  }
+  .form-container
+  {
+    padding: 20px;
+    box-shadow: 0 0 10px aqua;
+    background-color: white;
+  }
+}

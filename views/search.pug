@@ -1,0 +1,17 @@
+extends sidebar 
+
+block content-head 
+    link(rel="stylesheet", href="/assets/CSS/artist.css")
+    title Music Search  
+block content-body
+  div#artist_banner
+    img(src="/assets/images/genrePoster.jpg", alt="", title="music")
+  h1#search_head Search Songs According to Artist
+  div#search_cont
+    i.bx.bx-search
+    input(type="text" id="search_input" placeholder="Search Your Fav Song" required)
+    button(type="submit"  id="search_button") Search
+  div#three
+  h3#recommended_song  Recommended Songs
+  div#four
+  include footer 

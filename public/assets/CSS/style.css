@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../images/headset_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+#mainname_layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding-left: 10vh;
+    color: white;
+}
+.mainname {
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+#footer 
+{
+    /* position: absolute;
+    bottom: 20px; */
+    width: 100%;
+    height: 20vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #fff;
+}
+#footer-layout
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#quick
+{
+    color: black;
+    margin: 20px 0;
+    font-size: x-large;
+}
+.footer_left_links
+{
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: black;
+    border-radius: 50% 5%;
+    color: white;
+    box-shadow: 0 0 10px gray;
+    transition: all ease;
+}
+.footer_left_links:hover
+{
+    background-color: white;
+    color: black;
+}
+#footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#footer-links i {
+    font-size: x-large;
+    transition: color 0.3s;
+}
+#work-mail i
+{
+    color: red;
+}
+#work-linkdin i
+{
+    color: #0A66C2;
+}
+#footer-insta i
+{
+    color: #C13584;
+}
+#footer-what i
+{
+    color: rgb(37, 211, 102);
+}
+#work-mail i:hover,#work-linkdin i:hover,#footer-what i:hover,#footer-insta i:hover
+{
+    filter: drop-shadow(0 0 10px white);
+}
+#copyright,#footer-links
+{
+    color: black;
+    margin-top: 7%;
+}
+#footer-links h1
+{
+    color: black;
+}
+@media screen and (max-width:767px)
+{
+    body
+    {
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    #footer-layout
+    {
+        flex-direction: column;
+    }
+    #footer-left
+    {
+        order: 1;
+    }
+    #copyright
+    {
+        order: 3;
+    }
+    #footer-links
+    {
+        order: 2;
+    }
+}

@@ -1,0 +1,341 @@
+{
+  "songs": [
+
+    {
+      "song": "Ninnila",
+      "genre": "Love",
+      "artist": "Varun",
+      "movie":"Tholi Prema",
+      "photo": "/assets/images/Ninnila.jpg",
+      "songsrc":"/assets/Music/Ninnila.mp3"
+    },
+    {
+      "song": "Chuttamalle",
+      "genre": "Love",
+      "artist": "NTR",
+      "movie":"Devara",
+      "photo": "/assets/images/chuttamalle.jpg ",
+      "songsrc":"/assets/Music/chuttamalle.mp3"
+    },
+    {
+      "song": "Komuram Bheemudo",
+      "genre": "Sad",
+      "artist": "NTR",
+      "movie":"RRR",
+      "photo": "/assets/images/Komuram Bheemudo.jpg ",
+      "songsrc":"/assets/Music/Komuram Bheemudo.mp3"
+    },
+    {
+      "song": "Nattu Nattu",
+      "genre": "Party",
+      "artist": "NTR",
+      "movie":"RRR",
+      "photo": "/assets/images/Nattu Nattu.jpg ",
+      "songsrc":"/assets/Music/Nattu Nattu.mp3"
+    },
+    {
+      "song": "fear song",
+      "genre": "Mass",
+      "artist": "NTR",
+      "movie":"Devara",
+      "photo": "/assets/images/fear song.jpg ",
+      "songsrc":"/assets/Music/fear song.mp3"
+    },
+    {
+      "song": "Nijame Ne Chebuthunna",
+      "genre": "Love",
+      "artist": "sandeep kishan",
+      "movie":"Ooru Peru Bhairavakona",
+      "photo": "/assets/images/Nijame Ne Chebuthunna.jpg ",
+      "songsrc":"/assets/Music/Nijame Ne Chebuthunna.mp3"
+    },
+    {
+      "song": "Humma Humma",
+      "genre": "Love",
+      "artist": "sandeep kishan",
+      "movie":"Ooru Peru Bhairavakona",
+      "photo": "/assets/images/Humma Humma.jpg ",
+      "songsrc":"/assets/Music/Humma Humma.mp3"
+    },
+    {
+      "song": "srivalli",
+      "genre": "Love",
+      "artist": "Allu Arjun",
+      "movie":"pushpa",
+      "photo": "/assets/images/srivalli.jpg ",
+      "songsrc":"/assets/Music/srivalli.mp3"
+    },
+    {
+      "song": "Oo Antava",
+      "genre": "item songs",
+      "artist": "Allu Arjun",
+      "movie":"pushpa",
+      "photo": "/assets/images/Oo Antava.jpg ",
+      "songsrc":"/assets/Music/Oo Antava.mp3"
+    },
+    {
+      "song": "Sami Sami",
+      "genre": "Love",
+      "artist": "Allu Arjun",
+      "movie":"pushpa",
+      "photo": "/assets/images/Sami Sami.jpg ",
+      "songsrc":"/assets/Music/Sami Sami.mp3"
+    },
+    {
+      "song": "Eyy Bidda",
+      "genre": "Mass",
+      "artist": "Allu Arjun",
+      "movie":"pushpa",
+      "photo": "/assets/images/Eyy Bidda.jpg ",
+      "songsrc":"/assets/Music/Eyy Bidda.mp3"
+    },
+    {
+      "song": "Samajavaragamana",
+      "genre": "Love",
+      "artist": "Allu Arjun",
+      "movie":"Ala Vaikuntapuramulo",
+      "photo": "/assets/images/Samajavaragamana.jpg ",
+      "songsrc":"/assets/Music/Samajavaragamana.mp3"
+    },
+    {
+      "song": "Butta Bomma",
+      "genre": "Love",
+      "artist": "Allu Arjun",
+      "movie":"Ala Vaikuntapuramulo",
+      "photo": "/assets/images/Butta Bomma.jpg ",
+      "songsrc":"/assets/Music/Butta Bomma.mp3"
+    },
+    {
+      "song": "Ramulo Ramulo",
+      "genre": "Party",
+      "artist": "Allu Arjun",
+      "movie":"Ala Vaikuntapuramulo",
+      "photo": "/assets/images/Ramulo Ramulo.jpg",
+      "songsrc":"/assets/Music/Ramulo Ramulo.mp3"
+    },
+    {
+      "song": "Inkem Inkem Kaavaale",
+      "genre": "Love",
+      "artist": "Vijay Devarkonda",
+      "movie":"Geetha Govindam",
+      "photo": "/assets/images/Inkem Inkem Kaavaale.jpg ",
+      "songsrc":"/assets/Music/Inkem Inkem Kaavaale.mp3"
+    },
+    {
+      "song": "Yenti Yenti ",
+      "genre": "Love",
+      "artist": "Vijay Devarkonda",
+      "movie":"Geetha Govindam",
+      "photo": "/assets/images/Yenti Yenti.jpg",
+      "songsrc":"/assets/Music/Yenti Yenti.mp3"
+    },
+    {
+      "song": "Vachindamma",
+      "genre": "Love",
+      "artist": "Vijay Devarkonda",
+      "movie":"Geetha Govindam",
+      "photo": "/assets/images/Vachindamma.jpg ",
+      "songsrc":"/assets/Music/Vachindamma.mp3"
+    },
+    {
+      "song": "Kanureppala Kaalam",
+      "genre": "Sad",
+      "artist": "Vijay Devarkonda",
+      "movie":"Geetha Govindam",
+      "photo": "/assets/images/Kanureppala Kaalam.jpg ",
+      "songsrc":"/assets/Music/Kanureppala Kaalam.mp3"
+    },
+    {
+      "song": "Maate Vinadhuga",
+      "genre": "Love",
+      "artist": "Vijay Devarkonda",
+      "movie":"Taxi Wala",
+      "photo": "/assets/images/Maate Vinadhuga.jpg ",
+      "songsrc":"/assets/Music/Maate Vinadhuga.mp3"
+    },
+    {
+      "song": "Dhoom Dhaam Dhosthaan",
+      "genre": "Mass",
+      "artist": "Nani",
+      "movie":"Dasara",
+      "photo": "/assets/images/dasara.jpg ",
+      "songsrc":"/assets/Music/Dhoom Dhaam Dhosthaan.mp3"
+    },
+    {
+      "song": "Ori Vaari ",
+      "genre": "Sad",
+      "artist": "Nani",
+      "movie":"Dasara",
+      "photo": "/assets/images/dasara.jpg ",
+      "songsrc":"/assets/Music/Ori Vaari .mp3"
+    },
+    {
+      "song": "Chamkeela Angeelesi",
+      "genre": "Love",
+      "artist": "Nani",
+      "movie":"Dasara",
+      "photo": "/assets/images/dasara.jpg ",
+      "songsrc":"/assets/Music/Chamkeela Angeelesi.mp3"
+    },
+    {
+      "song": "Ammaadi",
+      "genre": "Love",
+      "artist": "Nani",
+      "movie":"hi nanna",
+      "photo": "/assets/images/hi nanna.jpg ",
+      "songsrc":"/assets/Music/Ammaadi.mp3"
+    },
+    {
+      "song": "Samayama",
+      "genre": "Love",
+      "artist": "Nani",
+      "movie":"hi nanna",
+      "photo": "/assets/images/hi nanna.jpg ",
+      "songsrc":"/assets/Music/Samayama.mp3"
+    },
+    {
+      "song": "Odiyamma",
+      "genre": "item songs",
+      "artist": "Nani",
+      "movie":"hi nanna",
+      "photo": "/assets/images/hi nanna.jpg ",
+      "songsrc":"/assets/Music/Odiyamma.mp3"
+    },
+    {
+      "song": "Rise of Shyam",
+      "genre": "mass",
+      "artist": "Nani",
+      "movie":"Shyam singha roy",
+      "photo": "/assets/images/shyam.jpg ",
+      "songsrc":"/assets/Music/Rise of Shyam.mp3"
+    },
+    {
+      "song": "Sirivennala",
+      "genre": "Love",
+      "artist": "Nani",
+      "movie":"Shyam singha roy",
+      "photo": "/assets/images/shyam.jpg ",
+      "songsrc":"/assets/Music/Sirivennala.mp3"
+    },
+    {
+      "song": "Kalaavathi",
+      "genre": "Love",
+      "artist": "Mahesh babu",
+      "movie":"Sarkar vari pata",
+      "photo": "/assets/images/Kalaavathi.jpg ",
+      "songsrc":"/assets/Music/Kalaavathi.mp3"
+    },
+    {
+      "song": "Oh My Baby",
+      "genre": "Love",
+      "artist": "Mahesh babu",
+      "movie":"Guntur Karam",
+      "photo": "/assets/images/Oh My Baby.jpg ",
+      "songsrc":"/assets/Music/Oh My Baby.mp3"
+    },
+    {
+      "song": "Dum Masala",
+      "genre": "Mass",
+      "artist": "Mahesh babu",
+      "movie":"Guntur Karam",
+      "photo": "/assets/images/Dum Masala.jpg ",
+      "songsrc":"/assets/Music/Dum Masala .mp3"
+    },
+    {
+      "song": "Kurchi Madathapetti",
+      "genre": "Mass",
+      "artist": "Mahesh babu",
+      "movie":"Guntur Karam",
+      "photo": "/assets/images/Kurchi Madathapetti.jpg ",
+      "songsrc":"/assets/Music/Kurchi Madathapetti.mp3"
+    },
+    {
+      "song": "Nee Kallalona",
+      "genre": "Love",
+      "artist": "NTR",
+      "movie":"Jai Lava Kusha",
+      "photo": "/assets/images/Nee Kallalona.jpg ",
+      "songsrc":"/assets/Music/Nee Kallalona.mp3"
+    },
+    {
+      "song": "Raavana",
+      "genre": "Mass",
+      "artist": "NTR",
+      "movie":"Jai Lava Kusha",
+      "photo": "/assets/images/Raavana.jpg",
+      "songsrc":"/assets/Music/Raavana.mp3"
+    },
+    {
+      "song": "Tring Tring",
+      "genre": "Love",
+      "artist": "NTR",
+      "movie":"Jai Lava Kusha",
+      "photo": "/assets/images/Tring Tring.jpg ",
+      "songsrc":"/assets/Music/Tring Tring.mp3"
+    },
+    {
+      "song": "Swing Zara",
+      "genre": "item songs",
+      "artist": "NTR",
+      "movie":"Jai Lava Kusha",
+      "photo": "/assets/images/Swing Zara.jpg ",
+      "songsrc":"/assets/Music/Swing Zara.mp3"
+    },
+    {
+      "song": "Andamaina Lokam",
+      "genre": "Love",
+      "artist": "NTR",
+      "movie":"Jai Lava Kusha",
+      "photo": "/assets/images/Andamaina Lokam.jpg ",
+      "songsrc":"/assets/Music/Andamaina Lokam.mp3"
+    },
+    {
+      "song": "Bhoom Bhaddhal",
+      "genre": "item songs",
+      "artist": "Ravi Teja",
+      "movie":"krack",
+      "photo": "/assets/images/Bhoom Bhaddhal.jpg ",
+      "songsrc":"/assets/Music/Bhoom Bhaddhal.mp3"
+    },
+    {
+      "song": "Pakka Local",
+      "genre": "item songs",
+      "artist": "NTR",
+      "movie":"Janatha Garage",
+      "photo": "/assets/images/Pakka Local.jpg ",
+      "songsrc":"/assets/Music/Pakka Local.mp3"
+    },
+    {
+      "song": "Jigelu Rani",
+      "genre": "item songs",
+      "artist": "Ram Charan",
+      "movie":"Rangastalam",
+      "photo": "/assets/images/Jigelu Rani.jpg ",
+      "songsrc":"/assets/Music/Jigelu Rani.mp3"
+    },
+    {
+      "song": "Yentha Sakkagunnave",
+      "genre": "Love",
+      "artist": "Ram Charan",
+      "movie":"Rangastalam",
+      "photo": "/assets/images/Yentha Sakkagunnave.jpg ",
+      "songsrc":"/assets/Music/Yentha Sakkagunnave.mp3"
+    },
+    {
+      "song": "Rangamma Mangamma",
+      "genre": "Love",
+      "artist": "Ram Charan",
+      "movie":"Rangastalam",
+      "photo": "/assets/images/Rangamma Mangamma.jpg ",
+      "songsrc":"/assets/Music/Rangamma Mangamma.mp3"
+    },
+    {
+      "song": "Orayyo",
+      "genre": "Love",
+      "artist": "Ram Charan",
+      "movie":"Rangastalam",
+      "photo": "/assets/images/Orayyo.jpg ",
+      "songsrc":"/assets/Music/Orayyo.mp3"
+    }
+  ]
+}

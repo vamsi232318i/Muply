@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="./assets/CSS/header.css">
+    <link rel="stylesheet" href="./assets/CSS/signin.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header id="header">
+        <nav id="nav">
+             <h1 id="nav_heading">THINK'S</h1>
+             <div id="links">
+                <a href="/">Home</a>
+                <a href="./signin.html">Sign In</a>
+                <a href="./signup.html">Sign Up</a>
+                <a href="">Contact Us</a>
+             </div>
+        </nav>
+    </header>
+    <main id="main">
+        <div id="one_cont">
+            <img src="./assets/images/mike_signin_signup.jpg" alt="">
+        </div>
+        <div id="two_cont">
+            <div class="container">
+                <div class="form-box">
+                    <h2>Sign In</h2>
+                    <form id="signinForm" action="/user/login" method="POST">
+                        <div class="input-group">
+                            <input name="username" type="text" id="username" required>
+                            <label for="username">Username or Email</label>
+                        </div>
+                        <div class="input-group">
+                            <input name="password" type="password" id="password" required>
+                            <label for="password">Password</label>
+                        </div>
+                        <div class="remember-me">
+                            <label>
+                                <input type="checkbox"> Remember Me
+                            </label>
+                        </div>
+                        <button type="submit" class="btn">Sign In</button>
+                        <div class="forgot-password">
+                            <a href="#">Forgot your password?</a>
+                        </div>
+                        <div class="social-login">
+                            <p>Or sign in with</p>
+                            <div class="social-icons">
+                                <i class='bx bxl-google' id="google" ></i>
+                                <i class='bx bxl-facebook-circle' id="facebook"></i>
+                                <i class='bx bxl-twitter' id="twitter"></i>
+                            </div>
+                        </div>
+                        <div class="signup">
+                            <p>Don't have an account? <a href="./signup.html">Sign Up</a></p>
+                        </div>
+                    </form>
+                    <p id="error"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+		<div id="footer-layout">
+            <div id="footer-left">
+                <h1 id="quick">Quick Links</h1>
+                <a href="./signin.html" class="footer_left_links">Login</a>
+                <a href="./signup.html" class="footer_left_links">Register</a>
+            </div>
+            <p id="copyright">&copy CopyRight 2024 Krishna Vamsi. All Rights Reserved</p>
+			<div id="footer-links">
+				<a id="work-mail" href="mailto:ffacc0999@gmail.com"><i class='bx bxl-gmail'></i>
+				</a>
+				<a id="work-linkdin" href="https://www.linkedin.com/in/"><i class='bx bxl-linkedin-square'></i></a>
+				<a id="footer-insta" href="#"><i class='bx bxl-instagram'></i></a>
+				<a id="footer-what" href="https://wa.me/+916309823231"><i class='bx bxl-whatsapp'></i></a>
+			</div>
+		</div>
+	</footer>
+    <script src="./assets/JS/signin.js"></script>
+</html>

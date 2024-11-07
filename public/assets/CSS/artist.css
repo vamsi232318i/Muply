@@ -1,0 +1,336 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: auto; /* Allow the body to scroll */
+}
+#artist_cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 50px; /* Add some padding at the bottom to prevent content from being cut off */
+}
+
+#artist_banner img 
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 30vh;
+    object-fit: cover; /* Ensures the image covers the banner area */
+}
+
+#artist_head,#search_head,#recommended_song{
+    width: 100%;
+    color: white;
+    font-size: x-large;
+    padding: 10px 0;
+    background-color: orange;
+    text-align: center;
+    /* margin: 10px 0; */
+}
+
+#artist_layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center; 
+    gap: 40px; 
+    margin-top: 50px;
+}
+.artist_circle i
+{
+    display: none;
+    transition: all  0.5s ease;
+
+}
+.artist_circle:hover i
+{
+    display: block;
+    position: relative;
+    top: 80px;
+    left: 45px;
+    font-size: 40px;
+    color: rgb(6, 244, 30);
+    cursor: pointer;
+}
+#one, #two{
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between artist circles */
+}
+
+.artist_circle {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    box-shadow: 0 0 10px gray;
+    max-width: 150px;
+    max-height: 150px;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#one .artist_circle:nth-child(1) {
+    background-image: url('../images/alluArjun.jpg');
+}
+#one .artist_circle:nth-child(2) {
+    background-image: url('../images/maheshBabu.jpg');
+}
+#one .artist_circle:nth-child(3) {
+    background-image: url('../images/ntr.jpg');
+}
+#one .artist_circle:nth-child(4) {
+    background-image: url('../images/nani.jpg');
+}
+#two .artist_circle:nth-child(1) {
+    background-image: url('../images/ramCharan.jpg');
+}
+#two .artist_circle:nth-child(2) {
+    background-image: url('../images/sandeepKishan.jpg');
+}
+#two .artist_circle:nth-child(3) {
+    background-image: url('../images/varun.jpg');
+}
+#two .artist_circle:nth-child(4) {
+    background-image: url('../images/vijay.jpg');
+}
+
+
+/* Container for artist songs */
+#three,#four {
+    display: flex;                      
+    flex-direction: column;
+    align-items: flex-start;            
+    border-radius: 10px;    
+    width: 40%;       
+}
+
+/* Individual song elements */
+.songs_dynamic {
+    display: flex;    
+    justify-content: space-between;                  
+    align-items: center;                
+    background-color: #ffffff;          
+    border-radius: 8px;                
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 10px;                     
+    margin: 10px 0;                    
+    width: 100%;                     
+}
+
+/* Image inside song card */
+.song-image {
+    width: 40px;                
+    height: 40px;                
+    border-radius: 5px;             
+    margin-right: 10px;                
+}
+
+/* Title paragraph */
+.artist_title {
+    flex-grow: 1;                      
+    font-size: 16px;    
+    color: #333;    
+    margin: 0;        
+}
+
+/* Play icon styling */
+.songs_dynamic .bx 
+{
+    font-size: 40px;
+    color: rgb(32, 225, 51);
+    cursor: pointer;                 
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #one, #two{
+        flex-direction: column;
+    }
+
+    .artist_circle {
+        width: 20vw;
+        height: 20vw;
+        max-width: 120px;
+        max-height: 120px;
+    }
+}
+
+
+/* Search Section */
+#search_cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    align-items: center; 
+}
+
+#search_input {
+    padding: 15px 150px;
+    margin-bottom: 20px; 
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: large;
+    box-shadow: 0 0 5px gray;   
+}
+#search_cont i
+{
+    position: relative;
+    top: 41px;
+    right: 230px;
+    font-size: 29px;
+    font-weight: bold;
+}
+#search_cont button,.delete-btn
+{
+    padding: 10px 20px;
+    border-radius: 5% 50%;
+    background-color: #AA10ED;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: large;
+    box-shadow: 0 0 10px gray;
+    color: white;
+    cursor: pointer;
+    transition: all ease;
+}
+#recommended_song
+{
+    margin-top: 50px;
+}
+
+
+/* Profile Section*/
+.main-content,.profile-info,.contact-info
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.main-content
+{
+    width: 100%;
+}
+.profile-main-content
+{
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+    background-color: orange;
+    text-align: center;
+}
+.profile_flex
+{
+    display: flex;
+    width: 50%;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.profile-info,.contact-info
+{
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    height: 25vh;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    transition: all ease;
+}
+.profile-info:hover,.contact-info:hover
+{
+    background-color: #AA10ED;
+    color: white;
+}
+.profile-info-content,.contact-info-content
+{
+    margin: 20px 0;
+}
+.edit-btn
+{
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: orange;
+    border: 0;
+    cursor: pointer;
+}
+.delete-btn
+{
+    margin-top: 30px;
+}
+
+
+
+/* Footer Section */
+footer {
+    width: 100%;
+    background: orange;
+    color: #FFEB55;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 55vh;
+}
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+}
+footer .footer-column {
+    width: 30%;
+}
+footer h3 {
+    margin-bottom: 15px;
+    color: #FFEB55;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li {
+    margin-bottom: 10px;
+}
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+footer ul li a:hover {
+    color: #FFEB55;
+}
+footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+footer .social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+footer .social-icons a:hover {
+    color: #FFEB55;
+}
+footer .copyright {
+    text-align: center;
+    /* margin-top: 20px; */
+    font-size: 0.9rem;
+    color: white;
+}

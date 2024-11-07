@@ -1,0 +1,69 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="icon" href="/assets/images/musicIcon.jpg" type="image/x-icon")  
+    link(href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css', rel='stylesheet')
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css")
+    link(rel="stylesheet", href="/assets/CSS/dashboard.css")
+    block content-head 
+  body
+    .sidebar
+      .top
+        .logo
+          i(class='bx bxs-music')
+          span PlayYours
+        i(class="bx bx-menu", id="btn")
+      ul
+        p#menu Menu
+        li
+          a(href="/user/discover")
+            i(class='bx bxs-grid-alt')
+            span.nav-item Discover
+          span.tooltip Discover
+        li
+          a(href="/user/search")
+            i(class='bx bxs-search-alt-2')
+            span.nav-item Search
+          span.tooltip Search
+        li
+          a(href="/user/artist")
+            i(class='bx bxs-microphone')
+            span.nav-item Artists
+          span.tooltip Artists
+        li
+          a(href="/user/profile")
+            i(class='bx bxs-user')
+            span.nav-item Profile
+          span.tooltip Profile
+        li
+          a(href="/user/genre")
+            i(class='bx bxs-volume-full')
+            span.nav-item Genre
+          span.tooltip Genre
+        p#library Library
+        li
+          a(href="#")
+            i(class='bx bx-album')
+            span.nav-item Albums
+          span.tooltip Albums
+        li
+          a(href="#")
+            i(class='bx bxs-heart')
+            span.nav-item Favourities
+          span.tooltip Favourities
+        li
+          a(href="/user/logout")
+            i(class='bx bx-log-out')
+            span.nav-item LogOut
+          span.tooltip LogOut
+    section#right_cont
+      img(src="", alt="", id="get_image")
+      #right_names
+        h4#right_h4
+        marquee
+          p#right_p
+      audio(src="", id="audio", controls) 
+    block content-body 
+  script(src="/assets/JS/dashboard.js")

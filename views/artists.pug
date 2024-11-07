@@ -1,0 +1,32 @@
+extends sidebar 
+
+block content-head 
+    link(rel="stylesheet", href="/assets/CSS/artist.css")
+    title Music Artists 
+block content-body 
+    section#artist_cont
+      div#artist_banner
+        img(src="/assets/images/genrePoster.jpg", alt="", title="music")
+      h1#artist_head Top Artists
+      div#artist_layout
+        div#one
+          div.artist_circle
+            i(class='bx bx-play-circle',  onclick='artistSongs("Allu Arjun")')
+          div.artist_circle
+            i(class='bx bx-play-circle',  onclick='artistSongs("Mahesh babu")')
+          div.artist_circle
+            i(class='bx bx-play-circle',  onclick='artistSongs("NTR")')
+          div.artist_circle
+            i(class='bx bx-play-circle',  onclick='artistSongs("Nani")')
+        div#two
+          div.artist_circle
+            i(class='bx bx-play-circle',  onclick='artistSongs("Ram Charan")')
+          div.artist_circle
+            i(class='bx bx-play-circle',  onclick='artistSongs("sandeep kishan")')
+          div.artist_circle
+            i(class='bx bx-play-circle',  onclick='artistSongs("Varun")')
+          div.artist_circle
+            i(class='bx bx-play-circle',  onclick='artistSongs("Vijay Devarkonda")')
+        h2#dynamicTitle 
+        div#three
+    include footer 

@@ -1,0 +1,32 @@
+[
+  {
+    "username": "padmasai",
+    "email": "padmasaigorrela@gmail.com",
+    "password": "123123123123",
+    "genre": "rock"
+  },
+  {
+    "username": "sai",
+    "email": "saigorrela@gmail.com",
+    "password": "58655865",
+    "genre": "rock"
+  },
+  {
+    "username": "vamsi",
+    "email": "vamsi@gmail.com",
+    "password": "1904419044",
+    "genre": "rock"
+  },
+  {
+    "username": "prudhvi",
+    "email": "prudhviveluvolu@gmail.com",
+    "password": "41794179",
+    "genre": "classical"
+  },
+  {
+    "username": "durgaganesh",
+    "email": "durga@gmail.com",
+    "password": "58645864",
+    "genre": "jazz"
+  }
+]
