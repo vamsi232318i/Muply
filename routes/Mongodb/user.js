@@ -12,7 +12,8 @@ router.post('/register', async (req, res, next) => {
 
     await newUser.save();
 
-    res.render('register_success', { username });
+    // res.render('register_success', { username });
+    res.redirect('/signin.html');
   } catch (error) {
     console.log(error.message);
     res.status(500).send('Error during registration');
